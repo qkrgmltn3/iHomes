@@ -1,0 +1,100 @@
+@charset "utf-8";
+
+.box {
+	margin-bottom: 20px;
+	width: 100%;
+	height: 750px;
+	position: relative;
+}
+
+.homes-hover {
+	width: 100%;
+	height: 750px;
+	background-size: cover;
+	position: absolute;
+	top: 0;
+	left: 0;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+.first {
+	border-top: none;
+}
+
+.homes-hover>p:nth-child(1) {
+	text-align: center;
+	font-weight: bold;
+	font-size: 35px;
+	line-height: 750px;
+}
+
+.homes-hover>p:nth-child(2) {
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	font-size: 20px;
+}
+
+.homes-hover>a {
+	display: inline-block;
+	width: 100%;
+	height: 750px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+
+/* place */
+
+.place>p {
+	width: 100%;
+	height: 750px;
+	background-image: url(../images/homes/place.jpg);
+	background-size: cover;
+}
+
+.place>.homes-hover {
+	background-image: url(../images/homes/place1.jpg);
+}
+
+/* hometype */
+
+.hometype>p {
+	width: 100%;
+	height: 750px;
+	background-image: url(../images/homes/hometype.jpg);
+	background-size: cover;
+}
+
+.hometype>.homes-hover {
+	background-image: url(../images/homes/hometype1.jpg);
+}
+
+
+/* style */
+
+.style>p {
+	width: 100%;
+	height: 750px;
+	background-image: url(../images/homes/style.jpg);
+	background-size: cover;
+}
+
+.style>.homes-hover {
+	background-image: url(../images/homes/style1.jpg);
+}
+
+/* familytype */
+
+.familytype>p {
+	width: 100%;
+	height: 750px;
+	background-image: url(../images/homes/familytype.jpg);
+	background-size: cover;
+}
+
+.familytype>.homes-hover {
+	background-image: url(../images/homes/familytype1.jpg);
+}

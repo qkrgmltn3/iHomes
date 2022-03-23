@@ -1,0 +1,235 @@
+@charset "utf-8";
+
+.contents>hr {
+	width: 90%;
+	border-top: 1px solid #ccc;
+}
+
+.bread {
+	width: 100%;
+	text-align: right;
+	font-weight: 500;
+	/* border: 1px solid red; */
+	position: relative;
+	right: 5%;
+	top: 50px;
+}
+
+.bread>a:hover {
+	text-decoration: underline;
+}
+
+.bread>span {
+	color: #159d99;
+	font-weight: bold;
+}
+
+.contents>section {
+	width: 1200px;
+	height: 400px;
+	margin-top: 150px;
+}
+
+.contents>section>ul>li {
+	float: left;
+}
+
+.findexpert-img {
+	width: 450px;
+	position: relative;
+}
+
+.findexpert-img>p {
+	width: 400px;
+	height: 220px;
+	border: 2px solid #159d99;
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	z-index: -10;
+}
+
+.findexpert-img>img {
+	cursor: pointer;
+}
+
+.findexpert-content {
+	width: 750px;
+	position: relative;
+	padding-top: 30px;
+	box-sizing: border-box;
+}
+
+.findexpert-content>p {
+	float: left;
+	font-size: 50px;
+	color: #ccc;
+	width: 70px;
+	cursor: pointer;
+}
+
+.findexpert-content>div {
+	width: 680px;
+	height: 190px;
+	position: absolute;
+	right: 0;
+}
+
+.findexpert-content>div>h3 {
+	line-height: 61px;
+	font-size: 25px;
+	cursor: pointer;
+}
+
+.findexpert-content>div span {
+	font-size: 16px;
+	font-weight: normal;
+	color: #828282;
+}
+
+.findexpert-content>div>p {
+	line-height: 1.8;
+	text-align: justify;
+}
+
+.findexpert-content>div>a {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.findexpert-content:hover>p {
+	color: #F1C12B;
+}
+
+.findexpert-content:hover>div>h3 {
+	color: #159d99;
+}
+
+.findexpert-content>div>a:hover>img {
+	transform: scale(1.2);
+}
+
+/* popup */
+
+.popup-cover {
+	width: 100%;
+	height: 3220px;
+	background-color: rgba(0, 0, 0, 0.9);
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 50;
+	min-width: 1200px;
+}
+
+.popup {
+	width: 100%;
+	height: 730px;
+	background-color: #fff;
+	position: fixed;
+	top: 110px;
+	overflow: hidden;
+}
+
+.title {
+	width: 1200px;
+	height: 730px;
+	background-color: #fff;
+	position: relative;
+	z-index: 60;
+	/* overflow: visible; */
+}
+
+.title>h2 {
+	margin-top: 250px;
+	padding-bottom: 10px;
+	font-size: 25px;
+	border-bottom: 4px solid #f2c12c;
+	width: 150px;
+	position: absolute;
+	left: 0;
+}
+
+.title>h3 {
+	font-size: 20px;
+	color: #828282;
+	position: absolute;
+	top: 305px;
+}
+
+.yellow-div1 {
+	width: 30%;
+	height: 4px;
+	background-color: #f2c12c;
+	position: absolute;
+	top: 290px;
+}
+
+.popup-close {
+	position: fixed;
+	top: 20px;
+	right: 20px;
+	cursor: pointer;
+}
+
+.popup-imgs-cover {
+	position: absolute;
+	top: 130px;
+	left: 200px;
+	width: 4290px;
+	height: 460px;
+	overflow: hidden;
+}
+
+.popup-imgs {
+	width: 4290px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 70;
+}
+
+.popup-imgs>li {
+	float: left;
+	margin-right: 20px;
+}
+
+.popup-imgs>li>img {
+	width: 695px;
+}
+
+.yellow-div2 {
+	width: 695px;
+	height: 4px;
+	background-color: #f2c12c;
+	position: absolute;
+	bottom: 130px;
+	left: 200px;
+}
+
+.title>p {
+	width: 40px;
+	height: 40px;
+	float: left;
+	padding: 15px 16px;
+	box-sizing: border-box;
+	position: absolute;
+	z-index: 70;
+	cursor: pointer;
+}
+
+.title>p:nth-child(4) {
+	background-color: #fff;
+	bottom: 140px;
+	left: 815px;
+}
+
+.title>p:nth-child(5) {
+	background-color: #f2c12c;
+	bottom: 140px;
+	left: 855px;
+}

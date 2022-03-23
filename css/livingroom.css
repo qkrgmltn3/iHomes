@@ -1,0 +1,134 @@
+@charset "utf-8";
+
+.bread {
+	width: 100%;
+	text-align: right;
+	font-weight: 500;
+	/* border: 1px solid red; */
+	position: relative;
+	right: 5%;
+	top: 50px;
+}
+
+.bread>a:hover {
+	text-decoration: underline;
+}
+
+.bread>span {
+	color: #159d99;
+	font-weight: bold;
+}
+
+.contents>section {
+  width: 1200px;
+  height: 900px;
+  padding-top: 100px;
+}
+
+.livingroom1 {
+  width: 1200px;
+  height: 450px;
+}
+
+.livingroom1>li:nth-child(1) {
+  width: 700px;
+  height: 420px;
+  float: left;
+  position: relative;
+}
+
+.livingroom1>li>img {
+  width: 100%;
+}
+
+.livingroom1>li>div {
+  width: 700px;
+  height: 420px;
+  border: 2px solid #159d99;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: -10;
+}
+
+.livingroom1>li:nth-child(2) {
+  width: 500px;
+  height: 420px;
+  padding-left: 70px;
+  float: left;
+  box-sizing: border-box;
+}
+
+.livingroom1>li>h3 {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #787878;
+}
+
+.livingroom1>li>h2 {
+  font-size: 18px;
+  /* margin-bottom: 20px; */
+  color: #159d99;
+  /* background-color: rgba(21, 157, 153, 0.3); */
+  width: 380px;
+  margin: 0 0 20px;
+  border: 2px solid #159d99;
+}
+
+.livingroom1>li>p {
+  font-size: 16px;
+  line-height: 1.8;
+  text-align: justify;
+  margin-bottom: 50px;
+}
+
+.contents>section>h2 {
+	text-align: center;
+	font-size: 18px;
+	font-weight: 500;
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+
+.contents>section>h2>p {
+	width: 300px;
+	height: 15px;
+	background-color: rgba(21, 157, 153, 0.3);
+	position: relative;
+	top: -15px;
+	left: 0px;
+	z-index: -10;
+}
+
+.items {
+  width: 1200px;
+}
+
+.items>li {
+  width: 184px;
+  height: 184px;
+  border: 1px solid #159d99;
+  box-sizing: border-box;
+  border-radius: 50%;
+  margin-right: 19px;
+  float: left;
+  cursor: pointer;
+}
+
+.items>li:last-child {
+  margin: 0;
+}
+
+.items>li>img {
+  width: 174px;
+  height: 174px;
+  border-radius: 50%;
+  margin-top: 4px;
+  margin-left: 4px;
+}
+
+.contents>hr {
+  border-top: 1px solid #ccc;
+  width: 1200px;
+  margin-bottom: 50px;
+}

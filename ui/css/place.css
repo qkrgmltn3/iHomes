@@ -1,0 +1,129 @@
+@charset "utf-8";
+
+.contents>p:nth-child(1) {
+  position: absolute;
+  top: 0px;
+  left: 90px;
+  font-size: 1rem;
+  line-height: 80px;
+  z-index: 30;
+}
+
+.contents>p:nth-child(2) {
+  position: absolute;
+  top: 0px;
+  left: 170px;
+  font-size: 0.9rem;
+  line-height: 80px;
+  z-index: 30;
+}
+
+.contents>ul>li {
+  width: 90%;
+  height: 200px;
+  background: #000;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.contents>ul>li>a {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.contents>ul>li>p {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 600;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.contents>ul>li:nth-child(1) {
+  background: url(../images/homes/place/livingroom-main.jpg) no-repeat 0 0;
+  background-size: cover;
+}
+
+.contents>ul>li:nth-child(2) {
+  background: url(../images/homes/place/kitchen-main.jpg) no-repeat 0 0;
+  background-size: cover;
+}
+
+.contents>ul>li:nth-child(3) {
+  background: url(../images/homes/place/bedroom-main.jpg) no-repeat 0 0;
+  background-size: cover;
+}
+
+.contents>ul>li:nth-child(4) {
+  background: url(../images/homes/place/study-main.jpg) no-repeat 0 0;
+  background-size: cover;
+}
+
+.contents>ul>li:nth-child(5) {
+  background: url(../images/homes/place/kidsroom-main.jpg) no-repeat 0 0;
+  background-size: cover;
+}
+
+.contents>ul>li:nth-child(6) {
+  background: url(../images/homes/place/garden-terrace-main.jpg) no-repeat 0 0;
+  background-size: cover;
+}
+
+.homes {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* display: none; */
+}
+
+.homes>ul {
+  padding-top: 211px;
+  box-sizing: border-box;
+}
+
+.homes>ul>li {
+  text-align: center;
+  height: 80px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.homes>p {
+  width: 50px;
+  margin-top: 70px;
+}
+
+.homes-sub {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.9);
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+.homes-sub>ul {
+  padding-top: 130px;
+  box-sizing: border-box;
+}
+
+.homes-sub>ul>li {
+  text-align: center;
+  height: 70px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.homes-sub>p {
+  width: 50px;
+  margin-top: 50px;
+}

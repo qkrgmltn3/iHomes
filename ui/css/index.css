@@ -1,0 +1,136 @@
+@charset "utf-8";
+
+.slide {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.slide>p {
+  position: absolute;
+  bottom: 30px;
+}
+
+.prev {
+  left: 30px;
+}
+
+.next {
+  right: 30px;
+}
+
+.slide>p>img {
+  width: 80px;
+}
+
+.slide>div:nth-child(1) {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url(../images/index/slide1.jpg) no-repeat 0 0;
+  background-size: cover;
+}
+
+.slide>div:nth-child(1)>h2 {
+  font-size: 3rem;
+  letter-spacing: 5px;
+  position: absolute;
+  top: 160px;
+  left: 30px;
+}
+
+.slide>div:nth-child(1)>h3 {
+  font-weight: normal;
+  font-size: 1rem;
+  position: absolute;
+  top: 290px;
+  left: 30px;
+}
+
+.slide>div:nth-child(1)>a {
+  display: inline-block;
+  width: 130px;
+  height: 30px;
+  line-height: 30px;
+  border: 2px solid #383838;
+  text-align: center;
+  font-size: 1.2rem;
+  position: absolute;
+  top: 340px;
+  left: 30px;
+  font-weight: 500;
+}
+
+.slide>div:nth-child(2) {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url(../images/index/slide2.jpg) no-repeat 0 0;
+  background-size: cover;
+  text-align: center;
+  padding-top: 50%;
+  box-sizing: border-box;
+}
+
+.slide>div:nth-child(2)>h2 {
+  font-size: 2rem;
+  margin-bottom: 5%;
+  line-height: 1.5;
+}
+
+.slide>div:nth-child(2) span {
+  font-weight: normal;
+}
+
+.slide>div:nth-child(2)>a {
+  /* font-size: 18px; */
+  display: inline-block;
+  width: 180px;
+  height: 30px;
+  border: 2px solid #383838;
+  line-height: 30px;
+  font-weight: 500;
+}
+
+.slide>div:nth-child(3) {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url(../images/index/slide3.jpg) no-repeat 0 0;
+  background-size: cover;
+  text-align: center;
+  padding-top: 50%;
+  box-sizing: border-box;
+}
+
+.slide>div:nth-child(3) h2 {
+  font-size: 2rem;
+  font-weight: normal;
+  line-height: 1.5;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 2px solid #fff;
+  padding: 5%;
+  width: 90%;
+}
+
+.slide>div:nth-child(3) h2 span {
+  font-weight: bold;
+}
+
+/* .slide>div:nth-child(3)>div {
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 90%;
+  height: 25%;
+  border: 2px solid #fff;
+  padding-top: 5%;
+  box-sizing: border-box;
+} */
